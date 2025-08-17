@@ -1,0 +1,88 @@
+#--------------------------------------------------------------------------- 
+# Project related configuration 
+#--------------------------------------------------------------------------- 
+
+PROJECT_NAME           = "Vehicle Monitoring Device - STM32 Firmware"
+PROJECT_NUMBER         = 1.0
+OUTPUT_DIRECTORY       = docs
+
+#--------------------------------------------------------------------------- 
+# Configuration options related to input files 
+#--------------------------------------------------------------------------- 
+
+# Look inside current folder and all subfolders
+INPUT                  = .
+FILE_PATTERNS          = *.c \
+                         *.h \
+                         *.cpp \
+                         *.hpp \
+                         *.s
+
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */build/* \
+                         */Drivers/CMSIS/* \
+                         */Middlewares/*
+
+#--------------------------------------------------------------------------- 
+# Extraction settings 
+#--------------------------------------------------------------------------- 
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+EXTRACT_LOCAL_CLASSES  = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+#--------------------------------------------------------------------------- 
+# Build related configuration 
+#--------------------------------------------------------------------------- 
+
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+
+#--------------------------------------------------------------------------- 
+# Output formats 
+#--------------------------------------------------------------------------- 
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+GENERATE_LATEX         = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_XML           = NO
+
+#--------------------------------------------------------------------------- 
+# Dot (Graphviz) configuration 
+#--------------------------------------------------------------------------- 
+
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 2
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_TRANSPARENT        = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+
+#--------------------------------------------------------------------------- 
+# Documentation options 
+#--------------------------------------------------------------------------- 
+
+INLINE_SOURCES         = YES
+SOURCE_BROWSER         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = YES
+
+#--------------------------------------------------------------------------- 
+# Preprocessor 
+#--------------------------------------------------------------------------- 
+
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = .

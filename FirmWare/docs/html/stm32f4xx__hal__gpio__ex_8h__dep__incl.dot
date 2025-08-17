@@ -1,0 +1,59 @@
+digraph "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="Drivers/STM32F4xx_HAL\l_Driver/Inc/stm32f4xx\l_hal_gpio_ex.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Header file of GPIO HAL Extension module."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Drivers/STM32F4xx_HAL\l_Driver/Inc/stm32f4xx\l_hal_gpio.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__gpio_8h.html",tooltip="Header file of GPIO HAL module."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Core/Inc/stm32f4xx\l_hal_conf.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__conf_8h.html",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Drivers/STM32F4xx_HAL\l_Driver/Inc/stm32f4xx_hal.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal_8h.html",tooltip="This file contains all the functions prototypes for the HAL module driver."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Core/Inc/main.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$main_8h.html",tooltip=": Header for main.c file. This file contains the common defines of the application."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Core/Src/main.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$main_8c.html",tooltip=": Main program body"];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Core/Src/stm32f4xx\l_hal_msp.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__msp_8c.html",tooltip="This file provides code for the MSP Initialization and de-Initialization codes."];
+  Node5 -> Node8 [id="edge7_Node000005_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Core/Src/stm32f4xx_it.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__it_8c.html",tooltip="Interrupt Service Routines."];
+  Node5 -> Node9 [id="edge8_Node000005_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="working files/Sucessful\l_Reading_mpu6050_noLibrary.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_sucessful___reading__mpu6050__no_library_8c.html",tooltip=" "];
+  Node5 -> Node10 [id="edge9_Node000005_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="working files/scanning\l_i2c2_.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$scanning__i2c2___8c.html",tooltip=" "];
+  Node4 -> Node11 [id="edge10_Node000004_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx_hal.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal_8c.html",tooltip="HAL module driver. This is the common part of the HAL initialization."];
+  Node4 -> Node12 [id="edge11_Node000004_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_cortex.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__cortex_8c.html",tooltip="CORTEX HAL module driver. This file provides firmware functions to manage the following functionaliti..."];
+  Node4 -> Node13 [id="edge12_Node000004_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_dma.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__dma_8c.html",tooltip="DMA HAL module driver."];
+  Node4 -> Node14 [id="edge13_Node000004_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_dma_ex.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__dma__ex_8c.html",tooltip="DMA Extension HAL module driver This file provides firmware functions to manage the following functio..."];
+  Node4 -> Node15 [id="edge14_Node000004_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_exti.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__exti_8c.html",tooltip="EXTI HAL module driver. This file provides firmware functions to manage the following functionalities..."];
+  Node4 -> Node16 [id="edge15_Node000004_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_flash.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__flash_8c.html",tooltip="FLASH HAL module driver. This file provides firmware functions to manage the following functionalitie..."];
+  Node4 -> Node17 [id="edge16_Node000004_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_flash_ex.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__flash__ex_8c.html",tooltip="Extended FLASH HAL module driver. This file provides firmware functions to manage the following funct..."];
+  Node4 -> Node18 [id="edge17_Node000004_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_flash_ramfunc.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__flash__ramfunc_8c.html",tooltip="FLASH RAMFUNC module driver. This file provides a FLASH firmware functions which should be executed f..."];
+  Node4 -> Node19 [id="edge18_Node000004_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_gpio.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__gpio_8c.html",tooltip="GPIO HAL module driver. This file provides firmware functions to manage the following functionalities..."];
+  Node4 -> Node20 [id="edge19_Node000004_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_i2c.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__i2c_8c.html",tooltip="I2C HAL module driver. This file provides firmware functions to manage the following functionalities ..."];
+  Node4 -> Node21 [id="edge20_Node000004_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_i2c_ex.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__i2c__ex_8c.html",tooltip="I2C Extension HAL module driver. This file provides firmware functions to manage the following functi..."];
+  Node4 -> Node22 [id="edge21_Node000004_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_pwr.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__pwr_8c.html",tooltip="PWR HAL module driver. This file provides firmware functions to manage the following functionalities ..."];
+  Node4 -> Node23 [id="edge22_Node000004_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_pwr_ex.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__pwr__ex_8c.html",tooltip="Extended PWR HAL module driver. This file provides firmware functions to manage the following functio..."];
+  Node4 -> Node24 [id="edge23_Node000004_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_rcc.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__rcc_8c.html",tooltip="RCC HAL module driver. This file provides firmware functions to manage the following functionalities ..."];
+  Node4 -> Node25 [id="edge24_Node000004_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_rcc_ex.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__rcc__ex_8c.html",tooltip="Extension RCC HAL module driver. This file provides firmware functions to manage the following functi..."];
+  Node4 -> Node26 [id="edge25_Node000004_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="Drivers/STM32F4xx_HAL\l_Driver/Src/stm32f4xx\l_hal_uart.c",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$stm32f4xx__hal__uart_8c.html",tooltip="UART HAL module driver. This file provides firmware functions to manage the following functionalities..."];
+}

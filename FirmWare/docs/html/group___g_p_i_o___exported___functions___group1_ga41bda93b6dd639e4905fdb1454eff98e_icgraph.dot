@@ -1,0 +1,14 @@
+digraph "HAL_GPIO_Init"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="HAL_GPIO_Init",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="HAL_I2C_MspInit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___i2_c___exported___functions___group1.html#gabe01a202c27b23fc150aa66af3130073",tooltip="I2C MSP Initialization This function configures the hardware resources used in this example."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="HAL_UART_MspInit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___u_a_r_t___exported___functions___group1.html#ga0e553b32211877322f949b14801bbfa7",tooltip="UART MSP Initialization This function configures the hardware resources used in this example."];
+}

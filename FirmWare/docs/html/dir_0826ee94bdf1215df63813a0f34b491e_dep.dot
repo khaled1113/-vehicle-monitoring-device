@@ -1,0 +1,13 @@
+digraph "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_fe70c8ad9f7ab4724b63ce89acbfa189 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Inc", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_fe70c8ad9f7ab4724b63ce89acbfa189.html",tooltip=""]
+  dir_0826ee94bdf1215df63813a0f34b491e [label="Legacy", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_0826ee94bdf1215df63813a0f34b491e.html",tooltip=""];
+  }
+}
