@@ -1,0 +1,18 @@
+digraph "HAL_NVIC_SetPriority"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="HAL_NVIC_SetPriority",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="HAL_InitTick",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___h_a_l___exported___functions___group1.html#ga44d1542f9985b2243b14a41070cc41cc",tooltip="This function configures the source of the time base. The time source is configured to have 1ms time ..."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="HAL_Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___h_a_l___exported___functions___group1.html#gaecac54d350c3730e6831eb404e557dc4",tooltip="This function is used to initialize the HAL Library; it must be the first instruction to be executed ..."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe",tooltip="The application entry point."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="HAL_SetTickFreq",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group___h_a_l___exported___functions___group2.html#ga47f2dd240b2aed823a76b11496f37690",tooltip="Set new tick Freq."];
+}
